@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Current Date and Time</title>
+    <script>
+        function updateTime() {
+            var now = new Date();
+            var dateElement = document.getElementById("date");
+            var timeElement = document.getElementById("time");
+ 
+ 
+            dateElement.textContent = now.toLocaleDateString();
+            timeElement.textContent = now.toLocaleTimeString();
+        }
+ 
+        // Update time every second
+        setInterval(updateTime, 1000);
+    </script>
+</head>
+<body>
+    <h1>Current Date and Time</h1>
+    <p>Date: <span id="date"></span></p>
+    <p>Time: <span id="time"></span></p>
+</body>
+</html>

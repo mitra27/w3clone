@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* to show all the content on a single nav bar */
+.firstclass{
+display:inline-block;
+margin:0 0px;
+list-style-type: none;
+}
+
+/* To style the text */
+.firstrow{
+text-decoration:none;
+color: black;
+list-style-type: none;
+margin-left: 20px;
+} 
+
+/* for top margin */
+.headdiv{
+    margin-top: 25px;
+}
+
+/* to remove list formatting */
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* used to show the content on the right side in a single line */
+.float{
+/* float:right; */
+margin-left:10px;
+}
+
+/* used to show the content on the left side in a single line */
+.float1{
+float:left;
+}
+
+/* for signup button */
+#signup{
+padding-left: 10px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius:100px;
+background-color:green;
+text-align: center;
+margin-right: -40px;
+border-radius: 25px 0 0 25px;
+}
+
+/* for login button */
+#login{
+padding-left: 10px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius:100px;
+background-color:lightgreen;
+text-align: center;
+/* margin-left: -30px; */
+}
+
+/* to show all the content on a single nav bar */
+.secondclass{
+display:inline-block;
+margin:0 19px;
+}
+
+/* to design the background */
+.colorback{
+background-color: rgba(0, 0, 0, 0.778);
+line-height: 30px;
+}
+
+/* change the text color and remove the list formatting */
+.style{
+text-decoration: none;
+color: white;
+list-style: none;
+}
+
+/*  */
+.flexy{
+display:flex;
+}
+
+/* to show all the content on a single nav bar */
+.secul{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 475px;
+}
+
+/* hover for second nav bar */
+.secondclass:hover{
+    background-color: black;
+}
+
+/* hover for first nav bar */
+.firstclass:hover{
+    background-color:green;
+    /* margin:-10px; */
+}
+
+/* change the background color of first nav bar */
+.backcolor{
+    background-color: lavender;
+}
+
+/* to adust the left contents of first nav bar */
+.updown{
+    margin-top:20px;
+}
+
+/* to adust the right contents of first nav bar */
+.updown1{
+    margin-top: -10px;
+}
+
+/* top margin of first nav bar */
+.margin{
+    margin-top: -20px;
+}
+
+/* bg color of the third part */
+.colorback1{
+    background-color: rgba(0, 0, 0, 0.779);
+    line-height: 100px;
+}
+
+/* to style the text */
+.letter{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:white;
+    font-size: 70px;
+    font-weight: 700px;
+    padding-top: 100px;
+}
+
+/* to style the text */
+.letter2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#FFC0C7;  
+    font-size: 23px;
+}
+
+/* to style the text */
+.letter3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* for svg */
+.section{
+    background-color: #D9EEE1;
+    height: 100px;
+    width: 100%;
+}
+
+/* to style the text */
+.section2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 100px;
+    margin-top: 18px;
+    font-weight: 700;
+    margin-left: 418px;
+}
+
+/* to style the text */
+.section3{
+    margin-left: 390px;
+    font-size: 19px;
+    line-height: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 550;
+}
+
+/* to style the first button */
+.click{
+    background-color: #04AA6D;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* to style the second button */
+.click1{
+    background-color: #FFF4A3;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+    margin-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 35px;
+    line-height: 70px;  
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* to style the third button */
+.click2{
+    background-color: #282A35;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* to style the fourth button */
+.click3{
+    background-color: #FFC0C7; 
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+    margin-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 70px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* to style the box */
+.outerbox{
+    float:right;
+    margin-right: 300px;
+    margin-top: 30px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 450px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+
+.displaytogether{
+    display:inline-block;
+}
+
+.innerbox{
+    background-color: white;
+    padding: 10px 10px 20px 15px;
+    margin-top: 20px;
+    border-left: 4px solid #04AA6D;
+    font-size: 15px;
+}
+
+.innerbutton{
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+
+.inbutton{
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 100px;
+    padding: 15px 45px 15px 45px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+}
+
+.inbutton:hover{
+    background-color: #0a724c;
+}
+
+.arrowcolor{
+    color: blue;
+    font-weight: 800;
+}
+
+.elementcolor{
+    color: brown;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search{
+    height: 50px;
+    width: 400px;
+    padding-left: 30px;
+    border: none;
+    /* border-top-right-radius:0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0; */
+    border-radius: 25px 0 0 25px;
+}
+
+.searchbutton{
+    height: 50px;
+    width: 100px;
+    /* border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 25px; */
+    border-radius: 0 25px 25px 0;
+    border: none;
+    margin-left: -4px;
+    padding-top: 14px;
+    padding-bottom: 21px;
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+.footer1{
+    background-color: #282A35;
+    color: white;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 17px;
+    border-radius: 4px;
+    padding: 10px 80px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.padding{
+    padding: 20px 30px 20px 30px;
+    margin: 20px 50px;
+}
+
+.head{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 18px;
+    display:inline-block;
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+.content{
+    text-decoration: none;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.footer1:hover{
+    background-color: #04AA6D;
+}
+
+.content:hover{
+    color: #04AA6D;
+    text-decoration: underline;
+}
+
+.click:hover{
+    background-color: #117653;
+}
+
+.click1:hover{
+    background-color: rgb(238, 224, 114);
+}
+
+.click2:hover{
+    background-color: rgb(22, 2, 2);
+}
+
+.click3:hover{
+    background-color: #f4949c;
+}
